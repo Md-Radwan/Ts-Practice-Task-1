@@ -20,4 +20,12 @@ Laptop cost 45000 and is available: true */
 let names = "Laptop";
 let price = 45000;
 let isAvailable = true;
-console.log(`${names} cost ${price} and is available: ${isAvailable}`);
+// console.log(`${names} cost ${price} and is available: ${isAvailable}`)
+/* Problem statement 3: একটি array বানাও যেখানে student-এর নাম থাকবে এবং কতজন আছে সেটা কনসোল করবে।
+Input:
+["Amina", "Rahim", "Karim", "Salma", "Rafi"]
+Output:
+Total student: 5 */
+let students = ["Amina", "Rahim", "Karim", "Salma", "Rafi"];
+let totalStudent = students.length;
+console.log(totalStudent);
