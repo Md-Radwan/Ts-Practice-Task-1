@@ -52,3 +52,16 @@ let userObj: {name: string, email?: string} = {
     name: "Amina",
 }
 // console.log(`Name: ${userObj.name}, Email: ${userObj.email ? userObj.email : "Not Provided"}`)
+
+
+// Problem statement 6: একটি function লেখো যা একটি number নিয়ে check করবে সেটা even কি না।
+
+function isEven(number: number) {
+    if (number % 2 === 0) {
+        return true
+    } else{
+        return false
+    }
+}
+
+// console.log(isEven(2026))
