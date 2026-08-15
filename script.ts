@@ -11,3 +11,19 @@ function printUser(name: string, age: number): string {
 }
 
 // console.log(printUser("Amina", 22))
+
+
+/* Problem statement 2: 
+একটি product-এর নাম, price, এবং availability store করো primitive types use করে।
+Input:
+name = "Laptop"
+price = 45000
+isAvailable = true
+Output:
+Laptop cost 45000 and is available: true */
+
+let names: string = "Laptop";
+let price = 45000;
+let isAvailable = true;
+
+console.log(`${names} cost ${price} and is available: ${isAvailable}`)
