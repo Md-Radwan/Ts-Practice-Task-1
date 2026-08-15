@@ -65,3 +65,16 @@ function isEven(number: number) {
 }
 
 // console.log(isEven(2026))
+
+
+// Problem statement 7: একটি function বানাও যা যেকোনো সংখ্যক number নিয়ে তাদের sum করবে।
+
+function sumAll(...numbers: number[]): number {
+    let sum = 0; 
+    for (const number of numbers) {
+        sum += number
+    }
+    return sum
+}
+
+// console.log(sumAll(1, 2, 3, 4))

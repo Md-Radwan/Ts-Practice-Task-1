@@ -33,9 +33,26 @@ let totalStudent = students.length;
 let person = ["Amina", 22];
 // console.log(person)
 // Problem statement 5: একটি user object বানাও যেখানে name required, কিন্তু email optional।
-// function userObj(params:type) {
-// }
 let userObj = {
-    name: "Amina"
+    name: "Amina",
 };
-console.log(userObj);
+// console.log(`Name: ${userObj.name}, Email: ${userObj.email ? userObj.email : "Not Provided"}`)
+// Problem statement 6: একটি function লেখো যা একটি number নিয়ে check করবে সেটা even কি না।
+function isEven(number) {
+    if (number % 2 === 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+// console.log(isEven(2026))
+// Problem statement 7: একটি function বানাও যা যেকোনো সংখ্যক number নিয়ে তাদের sum করবে।
+function sumAll(...numbers) {
+    let sum = 0;
+    for (const number of numbers) {
+        sum += number;
+    }
+    return sum;
+}
+console.log(sumAll(1, 2, 3, 4));
