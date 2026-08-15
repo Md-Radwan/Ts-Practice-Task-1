@@ -28,4 +28,14 @@ Output:
 Total student: 5 */
 let students = ["Amina", "Rahim", "Karim", "Salma", "Rafi"];
 let totalStudent = students.length;
-console.log(totalStudent);
+// console.log(totalStudent)
+// Problem statement 4: একটি tuple বানাও যেখানে একজন মানুষের নাম আর বয়স থাকবে।
+let person = ["Amina", 22];
+// console.log(person)
+// Problem statement 5: একটি user object বানাও যেখানে name required, কিন্তু email optional।
+// function userObj(params:type) {
+// }
+let userObj = {
+    name: "Amina"
+};
+console.log(userObj);
