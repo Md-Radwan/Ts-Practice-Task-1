@@ -60,4 +60,8 @@ function sumAll(...numbers) {
 const array1 = [1, 2, 3];
 const array2 = [4, 5, 6];
 const mergeArr = [...array1, ...array2];
-console.log(mergeArr);
+// console.log(mergeArr)
+// Problem statement 9: একটি number positive না negative তা ternary operator দিয়ে বের করো।
+const num = 5;
+const result = num >= 0 ? "positive" : "negative";
+console.log(result);

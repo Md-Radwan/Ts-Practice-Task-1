@@ -85,4 +85,11 @@ function sumAll(...numbers: number[]): number {
 const array1: number[] = [1, 2, 3];
 const array2: number[] = [4, 5, 6];
 const mergeArr: number[] = [...array1, ...array2]
-console.log(mergeArr)
+// console.log(mergeArr)
+
+
+// Problem statement 9: একটি number positive না negative তা ternary operator দিয়ে বের করো।
+
+const num: number = 5;
+const result: string = num >= 0 ? "positive" : "negative" ;
+console.log(result)
