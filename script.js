@@ -55,4 +55,9 @@ function sumAll(...numbers) {
     }
     return sum;
 }
-console.log(sumAll(1, 2, 3, 4));
+// console.log(sumAll(1, 2, 3, 4))
+// Problem statement 8: দুইটি array merge করো spread operator ব্যবহার করে।
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const mergeArr = [...array1, ...array2];
+console.log(mergeArr);

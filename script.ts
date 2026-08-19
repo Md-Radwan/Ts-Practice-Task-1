@@ -78,3 +78,11 @@ function sumAll(...numbers: number[]): number {
 }
 
 // console.log(sumAll(1, 2, 3, 4))
+
+
+// Problem statement 8: দুইটি array merge করো spread operator ব্যবহার করে।
+
+const array1: number[] = [1, 2, 3];
+const array2: number[] = [4, 5, 6];
+const mergeArr: number[] = [...array1, ...array2]
+console.log(mergeArr)
